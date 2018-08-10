@@ -1,4 +1,14 @@
 $(document).ready(function() {
+  var $tables = $('.tabs__js-tab table');
+
+  if ( $tables.length === 0 ) {
+      return false;
+  }
+
+  $tables.each( function(index, elem) {
+      $(elem).addClass('responsive');
+  });
+
   var switched = false;
   var updateTables = function() {
     if (($(window).width() < 767) && !switched ){
