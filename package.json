@@ -1,0 +1,23 @@
+{
+  "name": "responsive-tables",
+  "version": "1.0.0",
+  "description": "responsive table",
+  "main": "responsive-tables.js",
+  "style": "responsive-tables.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitrytyt/responsive-tables.git"
+  },
+  "keywords": [
+    "table"
+  ],
+  "author": "Zurb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitrytyt/responsive-tables/issues"
+  },
+  "homepage": "https://github.com/Dmitrytyt/responsive-tables#readme"
+}
